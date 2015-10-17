@@ -13,16 +13,16 @@
 }
 
 -(void) donate: (id)arg1 {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=WPFPPMW6X9LH8"]];
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.paypal.me/joemerlino"]];
 }
 
 -(void)twitter:(id)arg1 {
-    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://twitter.com/marcobeans97"]];
+    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"http://twitter.com/joe_merlino"]];
     
 }
 
 -(void) sendEmailTo: (id)arg1 {
-[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:singhofmarco@gmail.com"]];
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto:merlino.giuseppe1@gmail.com"]];
 }
 
 
